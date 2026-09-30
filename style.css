@@ -1,0 +1,29 @@
+:root {
+  --ground: #14120f;
+  --ink: #e8e2d6;
+  --faint: #a59d8e;
+  --rule: #2e2a24;
+  --link: #8fa8c7;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 3rem 1rem 4rem;
+  background: var(--ground);
+  color: var(--ink);
+  font: 16px/1.65 ui-monospace, "JetBrains Mono", Menlo, Consolas, monospace;
+}
+
+main { max-width: 42rem; margin: 0 auto; }
+
+h1 { font-size: 1.4rem; margin: 0 0 0.25rem; }
+h2 { font-size: 1rem; margin: 2.25rem 0 0.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); }
+
+p, li { color: var(--ink); }
+.lede { color: var(--faint); margin-top: 0; }
+
+a { color: var(--link); }
+
+footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--faint); font-size: 0.875rem; }
